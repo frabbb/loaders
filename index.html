@@ -117,9 +117,9 @@
     },
     { speed: 70, steps: ["✶", "✸", "✹", "✺", "✹", "✷"], title: "Star" },
     { steps: [".&nbsp;&nbsp;", "..&nbsp;", "..."], speed: 400, title: "Dots" },
-    { steps: [" ", ".", "o", "O", "@", "*", " "], title: "Baloon" },
+    { steps: [" ", ".", "o", "O", "@", "*", " "], title: "Balloon" },
     { steps: ["▙", "▛", "▜", "▟"], title: "Quarters" },
-    { steps: ["⣯", "⣟", "⡿", "⢿", "⣽", "⣾", "⣷"], speed: 90, title: "Braile" },
+    { steps: ["⣯", "⣟", "⡿", "⢿", "⣽", "⣾", "⣷"], speed: 90, title: "Braille" },
     {
       speed: 70,
       steps: [
@@ -278,7 +278,7 @@
   .title {
     position: absolute;
     top: calc(50% - 100px);
-    font-size: 12px;
+    font-size: 18px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -346,6 +346,7 @@
     text-decoration: underline;
     font-size: 12px;
     padding: 20px;
+    display: none;
 
     @media (hover: hover) {
       &:hover {
@@ -362,7 +363,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 0.28;
     letter-spacing: -0.05em;
     -webkit-tap-highlight-color: transparent;
