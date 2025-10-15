@@ -339,12 +339,13 @@
 
   .index {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
     text-decoration: underline;
     font-size: 12px;
+    padding: 20px;
 
     @media (hover: hover) {
       &:hover {
@@ -365,6 +366,7 @@
     line-height: 0.28;
     letter-spacing: -0.05em;
     -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
   }
 
   ::selection {
